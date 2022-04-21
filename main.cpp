@@ -1,6 +1,9 @@
 #include <QCoreApplication>
 #include<iostream>
 #include "MorseCodeConverter.h"
+#include  <bits/stdc++.h>
+#include<string>
+
 
 
 
@@ -14,7 +17,8 @@ int main()
    // std::string morsecode{ ".... . ._.. ._.. ___ _._.__" };
 
    std::cout<<"Enter the data to be encoded\n";
-   std::cin >>name;
+   std::getline(std::cin,name);
+
 
     std::string text{ name };
 
